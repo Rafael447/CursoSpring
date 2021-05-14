@@ -10,14 +10,13 @@ import com.aplicacaoweb.demo.entities.User;
 @RestController
 @RequestMapping (value = "/users")
 public class UserResource {
-@GetMapping
-	public ResponseEntity<User> findAll() {
-		
-		User i = new User(1L,"Rafael","00000000","000000000","00000000");
+
 		
 		
-		return ResponseEntity.ok().body(i);
+		
+		
+		
 		
 
 	}
-}
+
